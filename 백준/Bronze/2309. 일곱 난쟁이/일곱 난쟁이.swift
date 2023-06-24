@@ -23,7 +23,4 @@ func dfs(_ index: Int, _ n: Int, _ sum: Int, _ temp: [Int]) {
 let count = height.count
 var result: [Int] = []
 dfs(0, 7, 0, [])
-
-for r in result {
-    print(r)
-}
+result.forEach {print($0)}
